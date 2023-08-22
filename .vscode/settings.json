@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "deleterecord",
+        "firstname",
+        "fname",
+        "lastname",
+        "lname",
+        "localdatabase",
+        "sqflite"
+    ],
+    "cmake.sourceDirectory": "E:/VS Code/Flutter/localdatabase/windows/flutter"
+}
