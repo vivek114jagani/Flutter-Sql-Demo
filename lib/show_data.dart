@@ -22,7 +22,6 @@ class _ShowDataState extends State<ShowData> {
     userData = await db.getData();
     setState(() {});
     // ignore: avoid_print
-    print(userData);
   }
 
   @override
@@ -54,7 +53,9 @@ class _ShowDataState extends State<ShowData> {
                     userData = await db.getData();
                     setState(() {});
                   },
-                  icon: const Icon(Icons.delete),
+                  icon: const Icon(
+                    Icons.delete,
+                  ),
                 ),
               ],
             ),
