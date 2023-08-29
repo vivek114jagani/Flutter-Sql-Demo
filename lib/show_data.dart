@@ -18,7 +18,12 @@ class _ShowDataState extends State<ShowData> {
     super.initState();
   }
 
-  getData() async {
+  Future<void> getDatabase() async {
+    await db.database;
+  }
+
+  Future<void> getData() async {
+    await getDatabase();
     userData = await db.getData();
     setState(() {});
     // ignore: avoid_print
