@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:localdatabase/home.dart';
 import 'package:localdatabase/show_data.dart';
 
 void main() {
