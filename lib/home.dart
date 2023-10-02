@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:localdatabase/helper/database_helper.dart';
 import 'package:localdatabase/show_data.dart';
